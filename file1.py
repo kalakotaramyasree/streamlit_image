@@ -22,3 +22,4 @@ Width  = st.slider("select the Width",100,500)
 img1 =cv2.resize(img,(Width,Height))
 
 st.image(img1)
+
